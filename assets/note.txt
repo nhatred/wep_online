@@ -1,0 +1,41 @@
+trước khi code trang wep:
+cài đặt file resset     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --tex--color: #333;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    
+}
+
+
+đật 1 thẻ div chứa toàn bộ trang wep
+
+khi css 1 header có nhiều thành phần giống nhau nhưng có 1 vài thành phần nổi bật  khjacs các thành phần còn lại thì nên add class mới vào thêm để css riêng
+
+
+
+focus
+.auth-form__input{
+    width: calc(100% - 15px);
+    height: 40px;
+    margin-bottom: 16px;
+    padding-left: 12px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    border: var(--boder--color) solid 1px;
+    outline: none;
+}
+
+.auth-form__input:focus{
+    color: #777;
+}
